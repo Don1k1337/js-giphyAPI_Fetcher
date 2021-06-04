@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* body {
+    background-color: #000001;
+}
+.main-container__images {
+    margin-top: 22px;
+    columns: 4;
+    column-gap: 1em;
+}
+
+.gif-images {
+    margin-bottom: 1em;
+}
+
+.main-container {
+    width: calc(200px * 4 + 3em);
+    margin: auto;
+}
+.search-bar {
+    width: 40%;
+    position: relative;
+    display: flex;
+    margin: 20px auto auto auto;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #6a1686;
+    background: #6a1686;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.search-input {
+    width: 100%;
+    border: 3px solid #6a1686;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+.search-input:focus {
+    color: #6a1686;
+}
